@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 5.6//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-5.6.dtd">
+<hibernate-mapping>
+    <class name="com.codegnan.entity.Course" table="Course_101">
+        <id name="id">
+            <generator class = "increment"/>
+        </id>
+
+        <!-- Example property mapping -->
+        <!-- <property name="propertyName" column="column_name" type="data_type"/> -->
+        <property name = "title"/>
+        
+    </class>
+</hibernate-mapping>
